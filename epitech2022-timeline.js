@@ -28,6 +28,27 @@ function drawChart() {
   dataTable.addRows([
     ['\0', 'Now', now, now],
 
+
+    [
+      "B1 - FR - Écrits Professionnels",
+      "Mail pro",
+      start(04, 11, 2019),
+      start(24, 11, 2019)
+    ],
+    [
+      "B1 - FR - Écrits Professionnels",
+      "Lettre argumentée",
+      start(02, 12, 2019),
+      start(05, 01, 2020)
+    ],
+    [
+      "B1 - FR - Écrits Professionnels",
+      "RUSH - Les Seigneurs des mots",
+      start(12, 12, 2019),
+      start(19, 12, 2019)
+    ],
+
+
     [ 'B5 - FR - Écrits Professionnels', 'Avocat du diable', start(16, 09, 2019), start(06, 10, 2019) ],
     [ 'B5 - FR - Écrits Professionnels', '3 emails', start(07, 10, 2019), start(27, 10, 2019) ],
     [ 'B5 - FR - Écrits Professionnels', 'Mémo professionel', start(28, 10, 2019), start(17, 11, 2019) ],
@@ -40,8 +61,6 @@ function drawChart() {
     [ 'B5 - Advanced C++ - R-Type', 'R-Type', start(04, 11, 2019), start(01, 12, 2019) ],
     [ 'B5 - Advanced C++ - R-Type', 'BTTF - R-Type', start(16, 12, 2019), start(29, 12, 2019) ],
 
-    [ 'B5 - Advanced C++ - Zia', 'Zia', start(06, 01, 2020), start(01, 03, 2020) ],
-
     [ 'B5 - AppDev - AREA', 'AREA', start(06, 01, 2020), start(01, 03, 2020) ],
 
     [ 'B5 - AppDev - Dashboard', 'Dashboard', start(28, 10, 2019), start(17, 11, 2019) ],
@@ -51,22 +70,9 @@ function drawChart() {
     [ 'B5 - AppDev - Epicture', 'BTTF - Epicture', start(04, 11, 2019), start(10, 11, 2019) ],
     [ 'B5 - AppDev - Epicture', 'BTTF 2 - Epicture', start(16, 12, 2019), start(29, 12, 2019) ],
 
-    [ 'B5 - Artificial Intelligence', 'Gomoku', start(07, 10, 2019), start(27, 10, 2019) ],
-    [ 'B5 - Artificial Intelligence', 'BTTF - Gomoku', start(04, 11, 2019), start(10, 11, 2019) ],
-    [ 'B5 - Artificial Intelligence', 'BTTF 2 - Gomoku', start(16, 12, 2019), start(29, 12, 2019) ],
-
     [ 'B5 - DevOps', 'Docker Containerization', start(21, 10, 2019), start(03, 11, 2019) ],
     [ 'B5 - DevOps', 'Automation', start(04, 11, 2019), start(17, 11, 2019) ],
     [ 'B5 - DevOps', 'Orchestrator', start(18, 11, 2019), start(15, 12, 2019) ],
-
-    [ 'B5 - Functional Prog - dumbXML', 'dumbXML', start(18, 11, 2019), start(05, 01, 2020) ],
-    [ 'B5 - Functional Prog - dumbXML', 'BTTF - dumbXML', start(13, 01, 2020), start(19, 01, 2020) ],
-
-    [ 'B5 - Functional Prog - evalExpr', 'functional evalExpr', start(21, 10, 2019), start(03, 11, 2019) ],
-    [ 'B5 - Functional Prog - evalExpr', 'BTTF - functional evalExpr', start(04, 11, 2019), start(10, 11, 2019) ],
-    [ 'B5 - Functional Prog - evalExpr', 'BTTF 2 - functional evalExpr', start(16, 12, 2019), start(29, 12, 2019) ],
-
-    [ 'B5 - Functional Prog - KOAK', 'KOAK', start(06, 01, 2020), start(01, 03, 2020) ],
 
     [ 'B5 - Innov. - Moonshot', '#TOGETHER', start(02, 09, 2019), start(03, 09, 2019) ],
     [ 'B5 - Innov. - Moonshot', '#CLIMATE', start(03, 09, 2019), start(04, 09, 2019) ],
@@ -74,16 +80,6 @@ function drawChart() {
     [ 'B5 - Innov. - Moonshot', '#WORK', start(05, 09, 2019), start(06, 09, 2019) ],
     [ 'B5 - Innov. - Moonshot', 'Hack\'InTrack', start(07, 09, 2019), start(08, 09, 2019) ],
     [ 'B5 - Innov. - Moonshot', 'Moonshot Solution', start(09, 09, 2019), start(12, 09, 2019) ],
-
-    [ 'B5 - Mathematics', '301dannon', start(16, 09, 2019), start(29, 09, 2019) ],
-    [ 'B5 - Mathematics', '302separation', start(30, 09, 2019), start(13, 10, 2019) ],
-    [ 'B5 - Mathematics', '303make', start(14, 10, 2019), start(27, 10, 2019) ],
-    [ 'B5 - Mathematics', '304pacman', start(28, 10, 2019), start(10, 11, 2019) ],
-    [ 'B5 - Mathematics', '305construction', start(11, 11, 2019), start(24, 11, 2019) ],
-    [ 'B5 - Mathematics', '306radiator', start(25, 11, 2019), start(22, 12, 2019) ],
-    [ 'B5 - Mathematics', '307multigrains', start(23, 12, 2019), start(12, 01, 2020) ],
-    [ 'B5 - Mathematics', '308reedpipes', start(13, 01, 2020), start(26, 01, 2020) ],
-    [ 'B5 - Mathematics', '309pollution', start(27, 01, 2020), start(09, 02, 2020) ],
 
     [ 'B5 - Part-Time Job', 'Part-time internship', start(16, 09, 2019), start(08, 03, 2020) ],
 

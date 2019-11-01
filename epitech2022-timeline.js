@@ -41,22 +41,12 @@ function drawChart() {
       start(02, 12, 2019),
       start(05, 01, 2020)
     ],
-    [
-      "B1 - FR - Écrits Professionnels",
-      "RUSH - Les Seigneurs des mots",
-      start(12, 12, 2019),
-      start(19, 12, 2019)
-    ],
 
 
     [ 'B5 - FR - Écrits Professionnels', 'Avocat du diable', start(16, 09, 2019), start(06, 10, 2019) ],
     [ 'B5 - FR - Écrits Professionnels', '3 emails', start(07, 10, 2019), start(27, 10, 2019) ],
     [ 'B5 - FR - Écrits Professionnels', 'Mémo professionel', start(28, 10, 2019), start(17, 11, 2019) ],
     [ 'B5 - FR - Écrits Professionnels', 'Informer: Le magasine du geek', start(11, 11, 2019), start(12, 01, 2020) ],
-
-    [ 'B5 - Advanced C++ - Babel', 'Babel', start(16, 09, 2019), start(06, 10, 2019) ],
-    [ 'B5 - Advanced C++ - Babel', 'BTTF - Babel', start(04, 11, 2019), start(10, 11, 2019) ],
-    [ 'B5 - Advanced C++ - Babel', 'BTTF 2 - Babel', start(16, 12, 2019), start(29, 12, 2019) ],
 
     [ 'B5 - Advanced C++ - R-Type', 'R-Type', start(04, 11, 2019), start(01, 12, 2019) ],
     [ 'B5 - Advanced C++ - R-Type', 'BTTF - R-Type', start(16, 12, 2019), start(29, 12, 2019) ],
